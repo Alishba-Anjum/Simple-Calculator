@@ -19,6 +19,7 @@ function calculate() {
     input.value = "ERROR";
     setTimeout(() => {
       input.value = "";
+      input.style.color ="black";
     }, 1000);
   }
 }
